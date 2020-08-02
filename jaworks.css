@@ -1,0 +1,111 @@
+body{
+    background-color: #f9c74f;
+}
+
+#markclock{
+    width: 100px;
+    background-color: #f94144;
+    border-radius: 50%;
+    position: absolute;
+    left: 47%;
+}
+
+#markclock #clock{
+    text-align: center;
+}
+
+button{
+    outline: none;
+    border: none;
+    background-color:  #f9844a;
+    color: #f9844a;
+    border: #f9844a solid 1px;
+    border-radius: 100%;
+    padding: 20px;
+    margin: 10px;
+    position: relative;
+    top: 120px;
+    
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button img{
+    width: 80px;
+}
+
+#rock, #paper, #scissors{
+position: relative;
+bottom: 50%;
+}
+
+.versus{
+    color: #ea3546;
+    font-family: cursive;
+    font-style: bold;
+    letter-spacing: 5px;
+    font-size: 100px;
+    position: absolute;
+    left: 45%;
+    top: 20%;
+}
+#resultbox{
+position: absolute;
+bottom: 20%;
+}
+
+#resultsbox #results{
+    
+    font-family: cursive;
+    color: #ea3546;
+    text-align: center;
+    vertical-align: top;
+   
+
+}
+
+#botimg{
+    position:absolute;
+    right: 40px;
+    top:5px;
+}
+
+#markpoint {
+    position: absolute;
+     bottom: 50px;
+     left: 10px;
+     border: lightcoral bold 1px;
+     font-family: cursive;
+     font-size: 40px;
+     color: #ea3546;
+}
+
+#rel{
+    position: absolute;
+    color: #ea3546;
+    font-family: cursive;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 18px;
+    right: 45%;
+    
+}
+
+a{
+    
+    background-color:  #f9844a;
+    color: #f9844a;
+    border: #f9844a solid 1px;
+    border-radius: 100%;
+    padding: 20px;
+    margin: 10px;
+    position: relative;
+    cursor: pointer;
+    bottom: 20px;
+    text-align: center;
+    vertical-align: middle;
+
+    
+}
